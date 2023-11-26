@@ -8,10 +8,10 @@ import App from './App'
 const root = document.getElementById('root')
 
 render(
-    () => (
-        <Router source={hashIntegration()}>
-            <App />
-        </Router>
-    ),
-    root!
+  () => (
+    <Router source={hashIntegration()}>
+      <App />
+    </Router>
+  ),
+  root!
 )
