@@ -36,6 +36,13 @@ function Home() {
           <div class="stat-title xl:text-2xl">Students Helped</div>
         </div>
       </div>
+
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/-3a7U0o84ZQ?si=yOiKCg8Ij4C3OW1C" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        class="w-full max-w-xl h-96 my-2"
+        allowfullscreen
+      ></iframe>
     </div>
   )
 }
