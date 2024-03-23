@@ -11,7 +11,7 @@ function App() {
           <a class="btn btn-ghost text-xl">LExE</a>
         </div>
         <div class="flex-none">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="menu menu-horizontal px-1 text-2xl">
             <li><A href="/" activeClass="" inactiveClass="">Home</A></li>
             <li><A href="/about" activeClass="" inactiveClass="">About</A></li>
             <li><A href="/projects" activeClass="" inactiveClass="">Projects</A></li>
