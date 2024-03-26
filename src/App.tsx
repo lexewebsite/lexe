@@ -6,9 +6,9 @@ import Projects from './Projects'
 function App() {
   return (
     <>
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-slate-600 text-white mb-4 sticky top-0 z-50">
         <div class="flex-1">
-          <a class="btn btn-ghost text-xl">LExE</a>
+          <a class="btn btn-ghost text-3xl" href="/">LEXE</a>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1 text-2xl">

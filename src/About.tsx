@@ -1,4 +1,4 @@
-import Officer from "./Officer"
+import Officer from "./components/Officer"
 
 import 'chart.js/auto'
 import { DefaultChart } from 'solid-chartjs'

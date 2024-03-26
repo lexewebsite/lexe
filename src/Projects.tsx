@@ -9,8 +9,8 @@ import maclab from "./assets/focus-areas/maclab.jpeg";
 import clab from "./assets/focus-areas/clab.jpeg"; 
 
 
-import "solid-slider/slider.css";
-import { Slider, createSlider } from "solid-slider";
+// import "solid-slider/slider.css";
+// import { Slider, createSlider } from "solid-slider";
 
 
 import { technologyParagraphs_FA, stemParagraphs_FA, ah_FA, cwi_FA } from "./helpers";
@@ -36,12 +36,6 @@ function Projects() {
       <FocusArea name={"Technology"} description={technologyParagraphs_FA} imageSrcs={[maclab, clab]} altTexts={["A photograph of Lynbrook students using Photoshop on computers.", "A photograph of Lynbrook Students typing on computers."]} captions={["Mac Lab", "Computer Lab"]}/>
       <FocusArea name={"Campus Wide Infrastructure"} description={cwi_FA} imageSrcs={[lynbrook]} altTexts={["An aerial photograph of the entire Lynbrook High School"]} captions={[null]}/>
     </div> 
-
-    <Slider options={{ loop: true }}>
-      <div>Slide 1</div>
-      <div>Slide 2</div>
-      <div>Slide 3</div>
-    </Slider>
   </div> 
 }
 
