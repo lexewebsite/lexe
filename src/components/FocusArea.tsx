@@ -13,7 +13,7 @@ export default function FocusArea({
 }) {
   return (
     <>
-      <div class="grid grid-cols-2 sm:grid-cols-1 w-full gap-4">
+      <div class="grid md:grid-cols-2 grid-cols-1 w-full gap-4">
         <div class="w-full flex flex-col gap-4">
           {imageSrcs.map((imgSrc, index: number) => {
             return (
