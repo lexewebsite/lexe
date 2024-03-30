@@ -2,8 +2,8 @@ import banner from './assets/home-banner.jpeg'
 
 function Home() {
   return (
-    <div class="px-4 md:px-12 xl:px-48 md:py-12 flex flex-col items-center">
-      <div class="w-full grid sm:grid-cols-1 grid-cols-2 gap-12 place-items-center"> 
+    <div class="px-4 md:px-12 xl:px-48 py-12 flex flex-col items-center">
+      <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-12 place-items-center"> 
         <h1 class="text-5xl text-center font-extrabold drop-shadow-lg">LEXE Foundation</h1> 
         <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full" />
       </div> 
@@ -13,7 +13,7 @@ function Home() {
         <img src={banner} class="mb-2 mx-6 h-60"/>
       </div>  */}
 
-      <div class="stats sm:stats-vertical stats-horizontal md:my-18 my-4 w-full">
+      <div class="stats stats-vertical md:stats-horizontal md:my-18 my-4 w-full">
         <div class="stat place-items-center">
           <div class="stat-value xl:text-7xl">210</div>
           <div class="stat-title xl:text-2xl">Projects Funded</div>
@@ -31,11 +31,8 @@ function Home() {
           <div class="stat-title xl:text-2xl">Students Helped</div>
         </div>
       </div>
-
-
-
       
-      <div class="grid grid-cols-2 gap-12 sm:grid-cols-1 my-8"> 
+      <div class="grid md:grid-cols-2 gap-12 grid-cols-1 my-8"> 
         <div>
           <h1 class="text-4xl text-center font-extrabold -mt-8 drop-shadow-lg">Fundraising Goals</h1>
           <p class="text-lg text-justify mx-4 mt-4 tracking-tight">
@@ -56,7 +53,7 @@ function Home() {
       <iframe
         src="https://www.youtube-nocookie.com/embed/-3a7U0o84ZQ?si=yOiKCg8Ij4C3OW1C" title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        class="w-full max-w-xl h-72 sm:h-96 mt-2 mb-4"
+        class="w-full max-w-xl h-72 md:h-96 mt-2 mb-4"
         loading="lazy"
         allowfullscreen
       ></iframe>
