@@ -1,10 +1,15 @@
 import Officer from "./components/Officer"
 
-import 'chart.js/auto'
-import { DefaultChart } from 'solid-chartjs'
+import { Chart, registerables } from "chart.js"
+import { Line, Pie } from 'solid-chartjs'
+import { onMount } from "solid-js"
 
 
 function About() {
+  onMount(() => {
+    Chart.register(...registerables)
+  })
+
   const lineOptions = {
     responsive: true,
     maintainAspectRatio: false,
@@ -150,7 +155,7 @@ function About() {
         <p class="text-2xl font-light text-center mx-20"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin enim in dapibus sollicitudin. Sed euismod semper convallis. Mauris vel laoreet tellus. </p>
       </div>
       {/* <img src={grants} class="mb-2 h-96 mx-20"/> */}
-      <div class="mt-12 md:w-[50%] sm:flex sm:flex-shrink"> <DefaultChart type="pie" data={pieData} options={pieOptions} /> </div>
+      <div class="mt-12 md:w-[50%] sm:flex sm:flex-shrink"> <Pie data={pieData} options={pieOptions} /> </div>
     </div>
 
     <div class="w-full gap-4 flex flex-row sm:flex-col">
@@ -159,7 +164,7 @@ function About() {
         <h1 class="text-6xl font-extrabold text-center"> Our Mission </h1>
         <p class="text-2xl font-light text-center mx-20"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin enim in dapibus sollicitudin. Sed euismod semper convallis. Mauris vel laoreet tellus. </p>
       </div>
-      <div class="mt-12 md:w-[50%] sm:flex sm:flex-shrink"> <DefaultChart type="line" data={lineData} options={lineOptions} /> </div>
+      <div class="mt-12 md:w-[50%] sm:flex sm:flex-shrink"> <Line data={lineData} options={lineOptions} /> </div>
     </div>
 
     {/** Put all the officer section here. */}
