@@ -1,11 +1,11 @@
 /* @refresh reload */
-import { render } from 'solid-js/web'
-import { Router, hashIntegration } from '@solidjs/router'
+import { render } from "solid-js/web";
+import { Router, hashIntegration } from "@solidjs/router";
 
-import './index.css'
-import App from './App'
+import "./index.css";
+import App from "./App";
 
-const root = document.getElementById('root')
+const root = document.getElementById("root");
 
 render(
   () => (
@@ -13,5 +13,5 @@ render(
       <App />
     </Router>
   ),
-  root!
-)
+  root!,
+);
