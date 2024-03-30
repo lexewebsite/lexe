@@ -6,14 +6,14 @@ import Projects from "./Projects";
 function App() {
   return (
     <>
-      <div class="navbar bg-slate-600 text-white mb-4 sticky top-0 z-50 p-1 md:p-2">
+      <div class="navbar bg-slate-600 text-white mb-4 sticky top-0 z-50 p-0.5 md:p-1">
         <div class="flex-1">
-          <a class="btn btn-ghost text-2xl md:text-3xl" href="/">
+          <a class="btn btn-ghost text-2xl" href="/">
             LEXE
           </a>
         </div>
         <div class="flex-none">
-          <ul class="menu menu-horizontal px-1 text-xl md:text-2xl">
+          <ul class="menu menu-horizontal px-1 text-xl">
             <li>
               <A href="/" activeClass="" inactiveClass="">
                 Home
