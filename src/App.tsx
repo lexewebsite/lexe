@@ -2,6 +2,7 @@ import { A, Routes, Route } from '@solidjs/router'
 import Home from './Home'
 import About from './About'
 import Projects from './Projects'
+import Donate from './Donate'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <li><A href="/" activeClass="" inactiveClass="">Home</A></li>
             <li><A href="/about" activeClass="" inactiveClass="">About</A></li>
             <li><A href="/projects" activeClass="" inactiveClass="">Projects</A></li>
+            <li><A href="/donate" activeClass="" inactiveClass="">Donate</A></li>
           </ul>
         </div>
       </div>
@@ -23,6 +25,7 @@ function App() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
+        <Route path="/donate" component={Donate} />
       </Routes>
 
       <footer class="footer p-10 md:px-12 xl:px-48 bg-base-200 text-base-content">

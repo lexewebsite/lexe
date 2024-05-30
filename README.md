@@ -1,28 +1,14 @@
-## Usage
+## Repository Information. 
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+This is the repository for the LEXE Modernized Website. This website was built starting in October 2023 by Anish Lakkapragada and Chris Liu. 
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+This website is made with Solid.js, a derivative of React.js. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## How To Run 
 
-### `npm run dev`
+To run the frontend, please run `npm install` to acquire all the required dependencies and then `npm run dev` to serve the website locally. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+## Access Assets
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+Our assets (donation PDF, images) are all found in `src/assets`. They can easily be substituted there. 
