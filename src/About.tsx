@@ -130,7 +130,7 @@ function About() {
   };
 
   return (
-    <div class="px-4 md:px-12 xl:px-48 py-12 flex flex-col items-center gap-12">
+    <div class="container px-4 py-12 flex flex-col items-center gap-12">
       {/** Put the code for departments front page */}
       <div class="w-full gap-4 flex md:flex-row flex-col items-center">
         <div class="flex flex-col gap-6">

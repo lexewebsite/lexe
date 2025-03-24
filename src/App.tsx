@@ -46,7 +46,8 @@ function App() {
         <Route path="/donate" component={Donate} />
       </Routes>
 
-      <footer class="footer p-10 md:px-12 xl:px-48 bg-base-200 text-base-content">
+      <div class="w-full bg-base-200 text-base-content flex flex-col items-center">
+      <footer class="footer container p-10">
         <aside class="max-w-sm">
           <p class="font-bold text-lg">Lynbrook Excellence in Education</p>
           <p class="opacity-70">
@@ -68,6 +69,7 @@ function App() {
           <a class="link link-hover">Contact</a>
         </nav>
       </footer>
+      </div>
     </>
   );
 }

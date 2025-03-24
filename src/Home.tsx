@@ -2,12 +2,12 @@ import banner from "./assets/home-banner.jpeg";
 
 function Home() {
   return (
-    <div class="px-4 md:px-12 xl:px-48 py-12 flex flex-col items-center">
-      <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-12 place-items-center">
-        <h1 class="text-5xl text-center font-extrabold drop-shadow-lg">
+    <div class="container px-4 py-12 flex flex-col items-center">
+      <div class="w-full grid mb-8 md:grid-cols-2 grid-cols-1 gap-12 place-items-center">
+        <h1 class="text-5xl md:text-6xl text-center font-extrabold drop-shadow-lg">
           LEXE Foundation
         </h1>
-        <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full" />
+        <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full rounded-xl" />
       </div>
 
       {/* <div class="w-full gap-4 flex flex-row items-center"> 
@@ -15,7 +15,7 @@ function Home() {
         <img src={banner} class="mb-2 mx-6 h-60"/>
       </div>  */}
 
-      <div class="stats stats-vertical md:stats-horizontal md:my-18 my-4 w-full">
+      <div class="stats stats-vertical md:stats-horizontal mb-8 w-full">
         <div class="stat place-items-center">
           <div class="stat-value xl:text-7xl">210</div>
           <div class="stat-title xl:text-2xl">Projects Funded</div>
@@ -39,7 +39,7 @@ function Home() {
           <h1 class="text-4xl text-center font-extrabold -mt-8 drop-shadow-lg">
             Fundraising Goals
           </h1>
-          <p class="text-lg text-justify mx-4 mt-4 tracking-tight">
+          <p class="text-lg text-center mx-4 mt-4 max-w-lg">
             Our fundraising goal for this year is $300,000. So far, we are at
             55% of our fundraising goal with contributions from 25.4% of
             parents. Imagine what we can do for Lynbrook with 100% parent
@@ -52,13 +52,13 @@ function Home() {
             value="25"
             max="100"
           ></progress>
-          <p class="text-xl tracking-wider">25% parents have contributed</p>
+          <p class="text-xl tracking-wide">25% parents have contributed</p>
           <progress
             class="progress progress-secondary w-full"
             value="55"
             max="100"
           ></progress>
-          <p class="text-xl tracking-wider">55% fundraising goal achieved</p>
+          <p class="text-xl tracking-wide">55% fundraising goal achieved</p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ function Home() {
         src="https://www.youtube-nocookie.com/embed/-3a7U0o84ZQ?si=yOiKCg8Ij4C3OW1C"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        class="w-full max-w-xl h-72 md:h-96 mt-2 mb-4"
+        class="w-full max-w-5xl aspect-video mt-6 mb-4 rounded-xl"
         loading="lazy"
         allowfullscreen
       ></iframe>
