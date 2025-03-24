@@ -2,7 +2,7 @@ import { A, Routes, Route } from "@solidjs/router";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
-import Donate from './Donate';
+import Donate from "./Donate";
 
 function App() {
   return (
