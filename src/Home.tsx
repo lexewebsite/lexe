@@ -39,7 +39,7 @@ function Home() {
           <h1 class="text-4xl text-center font-extrabold -mt-8 drop-shadow-lg">
             Fundraising Goals
           </h1>
-          <p class="text-lg text-center mx-4 mt-4 max-w-lg">
+          <p class="text-lg text-center text-pretty mx-4 mt-4 max-w-lg">
             Our fundraising goal for this year is $300,000. So far, we are at
             55% of our fundraising goal with contributions from 25.4% of
             parents. Imagine what we can do for Lynbrook with 100% parent

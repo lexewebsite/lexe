@@ -38,7 +38,7 @@ export default function FocusArea({
             {description.map((paragraph: string) => {
               return (
                 <>
-                  <p class="w-full text-mdt"> {paragraph} </p>
+                  <p class="w-full hyphens-auto text-justify indent-8 md:hyphens-none md:text-left md:text-pretty"> {paragraph} </p>
                 </>
               );
             })}
