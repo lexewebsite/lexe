@@ -7,7 +7,7 @@ function Home() {
         <h1 class="text-5xl md:text-6xl text-center font-extrabold drop-shadow-lg">
           LEXE Foundation
         </h1>
-        <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full rounded-xl" />
+        <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full rounded-2xl" />
       </div>
 
       {/* <div class="w-full gap-4 flex flex-row items-center"> 
@@ -52,7 +52,7 @@ function Home() {
             value="25"
             max="100"
           ></progress>
-          <p class="text-xl tracking-wide">25% parents have contributed</p>
+          <p class="text-xl tracking-widet">25% parents have contributed</p>
           <progress
             class="progress progress-secondary w-full"
             value="55"
@@ -66,7 +66,7 @@ function Home() {
         src="https://www.youtube-nocookie.com/embed/-3a7U0o84ZQ?si=yOiKCg8Ij4C3OW1C"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        class="w-full max-w-5xl aspect-video mt-6 mb-4 rounded-xl"
+        class="w-full max-w-5xl aspect-video mt-6 mb-4 rounded-2xl"
         loading="lazy"
         allowfullscreen
       ></iframe>
