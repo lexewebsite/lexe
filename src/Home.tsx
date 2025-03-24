@@ -52,13 +52,13 @@ function Home() {
             value="25"
             max="100"
           ></progress>
-          <p class="text-xl tracking-widet">25% parents have contributed</p>
+          <p class="text-xl opacity-70">25% parents have contributed</p>
           <progress
             class="progress progress-secondary w-full"
             value="55"
             max="100"
           ></progress>
-          <p class="text-xl tracking-wide">55% fundraising goal achieved</p>
+          <p class="text-xl opacity-70">55% fundraising goal achieved</p>
         </div>
       </div>
 
