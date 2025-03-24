@@ -33,7 +33,7 @@ export default function FocusArea({
           })}
         </div>
         <div class="w-full flex flex-col gap-4 mb-4">
-          <h1 class="text-2xl bg-secondary-content p-2 rounded-2xl"> {name} </h1>
+          <h1 class="text-2xl bg-secondary text-secondary-content font-extrabold p-2 rounded-2xl"> {name} </h1>
           <div class="w-full text-left flex flex-col gap-2">
             {description.map((paragraph: string) => {
               return (
