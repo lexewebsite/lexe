@@ -4,9 +4,14 @@ function Home() {
   return (
     <div class="container px-4 py-12 flex flex-col items-center">
       <div class="w-full grid mb-8 md:grid-cols-2 grid-cols-1 gap-12 place-items-center">
+        <div class="flex flex-col items-center gap-2">
         <h1 class="text-5xl md:text-6xl text-center font-extrabold drop-shadow-lg">
           LEXE Foundation
         </h1>
+        <h2 class="text-2xl md:text-3xl text-center font-light">
+          Lynbrook Excellence in Education
+        </h2>
+        </div>
         <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full rounded-2xl" />
       </div>
 
@@ -39,7 +44,7 @@ function Home() {
           <h1 class="text-4xl text-center font-extrabold -mt-8 drop-shadow-lg">
             Fundraising Goals
           </h1>
-          <p class="text-lg text-center text-pretty mx-4 mt-4 max-w-lg">
+          <p class="text-md lg:text-xl text-center text-pretty mx-4 mt-4 max-w-xl">
             Our fundraising goal for this year is $300,000. So far, we are at
             55% of our fundraising goal with contributions from 25.4% of
             parents. Imagine what we can do for Lynbrook with 100% parent
@@ -66,7 +71,7 @@ function Home() {
         src="https://www.youtube-nocookie.com/embed/-3a7U0o84ZQ?si=yOiKCg8Ij4C3OW1C"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        class="w-full max-w-5xl aspect-video mt-6 mb-4 rounded-2xl"
+        class="w-full max-w-5xl aspect-video mt-6 rounded-2xl"
         loading="lazy"
         allowfullscreen
       ></iframe>
