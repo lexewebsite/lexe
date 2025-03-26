@@ -5,12 +5,12 @@ function Home() {
     <div class="container px-4 py-12 flex flex-col items-center">
       <div class="w-full grid mb-8 md:grid-cols-2 grid-cols-1 gap-12 place-items-center">
         <div class="flex flex-col items-center gap-2">
-        <h1 class="text-5xl md:text-6xl text-center font-extrabold drop-shadow-lg">
-          LEXE Foundation
-        </h1>
-        <h2 class="text-2xl md:text-3xl text-center font-light">
-          Lynbrook Excellence in Education
-        </h2>
+          <h1 class="text-5xl md:text-6xl text-center font-extrabold drop-shadow-lg">
+            LEXE Foundation
+          </h1>
+          <h2 class="text-2xl md:text-3xl text-center font-light">
+            Lynbrook Excellence in Education
+          </h2>
         </div>
         <img src={banner} class="mb-2 mx-6 sm:mx-0 w-full rounded-2xl" />
       </div>
