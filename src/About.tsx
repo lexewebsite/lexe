@@ -130,58 +130,54 @@ function About() {
   };
 
   return (
-    <div class="px-4 md:px-12 xl:px-48 py-12 flex flex-col items-center gap-12">
-      {/** Put the code for departments front page */}
-      <div class="w-full gap-4 flex md:flex-row flex-col items-center">
-        <div class="flex flex-col gap-6">
-          <h1 class="text-5xl font-extrabold text-center"> Our Mission </h1>
-          <p class="text-xl md:text-2xl font-light text-center tracking-tight md:mx-12 lg:mx-20 mx-4">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            sollicitudin enim in dapibus sollicitudin. Sed euismod semper
-            convallis. Mauris vel laoreet tellus.{" "}
-          </p>
+    <>
+      <div class="container px-4 pt-12 pb-8 flex flex-col items-center gap-2 text-base-content">
+        {/** Put the code for departments front page */}
+        <h1 class="text-5xl font-extrabold text-center mb-4">Our Mission</h1>
+        <div class="text-md lg:text-xl text-pretty flex flex-col gap-2 max-w-4xl">
+          <p>Lynbrook Excellence in Education (Lynbrook Excellence) is an IRS approved 501(c) (3) public charity (Tax ID#: 45-2453655). The primary objective and purpose of this organization is to promote and support excellence in education at Lynbrook High School.</p>
+          <p>Lynbrook Excellence will strive to supplement the resources provided by the Fremont Union High School District in order to further enrich the educational environment at Lynbrook.</p>
+          <p>The initial focus areas for Lynbrook Excellence are:</p>
+          <ol>
+            <li>1. Provide needed equipment to departments.</li>
+            <li>2. Provide curriculum related resources.</li>
+            <li>3. Expand the technology and infrastructure for staff and students.</li>
+            <li>4. Support programs that develop student leadership, creativity and excellence.</li>
+            <li>5. Provide resources for professional development for teachers.</li>
+          </ol>
         </div>
         {/* <img src={grants} class="mb-2 h-96 mx-20"/> */}
-        <div>
-          {" "}
-          <Pie data={pieData} options={pieOptions} />{" "}
+        <div class="flex flex-col lg:flex-row gap-8 w-full justify-center items-center mt-8 max-w-5xl">
+          <div class="relative w-full">
+            <Pie data={pieData} options={pieOptions} />
+          </div>
+          <div class="relative w-full">
+            <Line data={lineData} options={lineOptions} />
+          </div>
         </div>
       </div>
-
-      <div class="w-full gap-4 flex md:flex-row flex-col items-center">
-        <div class="flex flex-col gap-6">
-          <h1 class="text-5xl font-extrabold text-center"> Our Mission </h1>
-          <p class="text-xl md:text-2xl font-light text-center tracking-tight sm:mx-20 mx-4">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            sollicitudin enim in dapibus sollicitudin. Sed euismod semper
-            convallis. Mauris vel laoreet tellus.{" "}
-          </p>
-        </div>
-        {/* <img src={grants} class="mb-2 h-96 mx-20"/> */}
-        <div>
-          {" "}
-          <Line data={lineData} options={lineOptions} />{" "}
-        </div>
-      </div>
-
-      {/** Put all the officer section here. */}
-
-      <h3 class="text-4xl font-extrabold text-center my-4"> Meet The Team </h3>
-      <div class="flex flex-row w-full justify-around my-8">
-        <div class="flex flex-col gap-4">
-          <Officer />
-          <Officer />
-          <Officer />
-        </div>
-        <div class="flex flex-col gap-4">
-          <Officer />
-          <Officer />
-          <Officer />
+      <div class="bg-neutral w-full flex flex-col items-center">
+        <div class="container px-4 pt-8 pb-12 flex flex-col items-center gap-12 text-neutral-content">
+          <h3 class="text-4xl font-extrabold text-center">Meet The Team</h3>
+          <div class="flex flex-col gap-4 sm:flex-row w-full justify-around mb-8">
+            <div class="flex flex-col gap-4">
+              <Officer name="Rajesh Aravindakshan" description="President" />
+              <Officer name="Parthasarathy Ranganathan" description="Secretary" />
+              <Officer name="Monica Joshi" description="VP Outreach" />
+              <Officer name="Terri Fill" description="LHS Teacher" />
+              <Officer name="David Erwin" description="Permanent Invitee" />
+            </div>
+            <div class="flex flex-col gap-4">
+              <Officer name="Prashant Shah" description="Treasurer" />
+              <Officer name="Ravi Ram" description="Co-Treasurer" />
+              <Officer name="Mimi Wong" description="VP Outreach" />
+              <Officer name="Maria Jacksonn" description="LHS Principal" />
+              <Officer name="Maya Baba" description="LHS Staff" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

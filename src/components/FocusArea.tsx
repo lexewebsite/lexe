@@ -13,26 +13,32 @@ export default function FocusArea({
 }) {
   return (
     <>
-      <div class="grid md:grid-cols-2 grid-cols-1 w-full gap-4">
-        <div class="w-full flex flex-col gap-4">
+      <div class="grid md:grid-cols-2 grid-cols-1 w-full gap-10 text-base-content">
+        <div class="w-full flex flex-col gap-8">
           {imageSrcs.map((imgSrc, index: number) => {
-            return (
-              <div class="w-full flex flex-col gap-4">
-                <img src={imgSrc} alt={altTexts[index]} />
+            return captions[index] != null ? (
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img src={imgSrc} alt={altTexts[index]}/>
+                </figure>
                 {captions[index] != null && (
-                  <p class="text-center w-full"> {captions[index]} </p>
+                  <div class="card-body py-5">
+                    <h2 class="text-xl font-light text-center">{captions[index]}</h2>
+                  </div>
                 )}
               </div>
+            ) : (
+              <img src={imgSrc} alt={altTexts[index]} class="rounded-2xl" />
             );
           })}
         </div>
         <div class="w-full flex flex-col gap-4 mb-4">
-          <h1 class="text-2xl bg-red-200"> {name} </h1>
+          <h1 class="text-2xl bg-secondary text-secondary-content font-extrabold p-2 rounded-2xl"> {name} </h1>
           <div class="w-full text-left flex flex-col gap-2">
             {description.map((paragraph: string) => {
               return (
                 <>
-                  <p class="text-gray-500 w-full text-md"> {paragraph} </p>
+                  <p class="w-full hyphens-auto text-justify indent-8 md:hyphens-none md:text-left md:text-pretty"> {paragraph} </p>
                 </>
               );
             })}
