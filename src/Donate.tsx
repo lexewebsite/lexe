@@ -13,6 +13,9 @@ function Donate() {
 
       {/** This section of the website should go horizontally down while be text-lefted.*/}
       <div class="container flex flex-col gap-2 max-w-4xl">
+        <p class="text-2xl lg:text-3xl mt-8 font-extrabold">
+          PayPal:
+        </p>
         <a href={DONATION_STRING} target="_blank" class="w-64 self-center">
           <img
             src={donation}
@@ -30,11 +33,8 @@ function Donate() {
           </a>{" "}
           and mail with your donation to:
         </p>
-        <p class="text-2xl lg:text-3xl mt-4 font-extrabold">
-          Our Address:
-        </p>
-        <p class="text-md lg:text-xl max-w-4xl">
-          1280 Johnson Ave, San Jose, CA 95129.
+        <p class="text-md lg:text-xl max-w-4xl font-mono">
+          1280 Johnson Ave, San Jose, CA 95129
         </p>
       </div>
     </div>
