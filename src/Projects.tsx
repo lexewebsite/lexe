@@ -30,8 +30,8 @@ const lorem = new LoremIpsum({
 });
 function Projects() {
   return (
-    <div class="container w-full text-center">
-      <h1 class="text-5xl font-extrabold text-center mt-12 mb-6">Focus Areas</h1>
+    <div class="container w-full text-center py-12">
+      <h1 class="text-5xl font-extrabold text-center mb-10">Focus Areas</h1>
       <div class="w-[90%] ml-[5%] flex-col flex gap-8">
         <FocusArea
           name={"STEM"}
