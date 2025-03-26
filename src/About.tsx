@@ -147,11 +147,11 @@ function About() {
           </ol>
         </div>
         {/* <img src={grants} class="mb-2 h-96 mx-20"/> */}
-        <div class="flex flex-col lg:flex-row gap-8 w-full justify-center items-center mt-8">
-          <div class="relative">
+        <div class="flex flex-col lg:flex-row gap-8 w-full justify-center items-center mt-8 max-w-5xl">
+          <div class="relative w-full">
             <Pie data={pieData} options={pieOptions} />
           </div>
-          <div class="relative">
+          <div class="relative w-full">
             <Line data={lineData} options={lineOptions} />
           </div>
         </div>
