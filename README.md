@@ -1,8 +1,11 @@
-## Repository Information.
+# LEXE Foundation Website
 
-This is the repository for the LEXE Modernized Website. This website was built starting in October 2023 by Anish Lakkapragada and Chris Liu.
+This is the repository for the new website for Lynbrook Excellence in Education. This website was built starting in October 2023 by Anish Lakkapragada and Chris Liu.
 
-This website is made with Solid.js, a derivative of React.js.
+This website is built with Solid.js.
+
+> [!IMPORTANT]
+> Please do **NOT** click the "Sync Fork" button at the top of this page. The fact that this repository is a fork is due to historical reasons only.
 
 ## How To Run
 
