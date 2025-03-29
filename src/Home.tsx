@@ -39,9 +39,9 @@ function Home() {
         </div>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-12 grid-cols-1 my-8">
+      <div class="grid md:grid-cols-2 gap-12 grid-cols-1 my-8 items-center">
         <div>
-          <h1 class="text-4xl text-center font-extrabold -mt-8 drop-shadow-lg">
+          <h1 class="text-4xl text-center font-extrabold drop-shadow-lg">
             Fundraising Goals
           </h1>
           <p class="text-md lg:text-xl text-center text-pretty mx-4 mt-4 max-w-xl">
