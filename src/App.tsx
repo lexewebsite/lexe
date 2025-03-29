@@ -23,7 +23,7 @@ function pages() {
         </A>
       </li>
       <li>
-        <A href="/donate" activeClass="" inactiveClass="">
+        <A href="/donate" class="bg-accent text-accent-content font-normal" activeClass="" inactiveClass="">
           Donate
         </A>
       </li>
