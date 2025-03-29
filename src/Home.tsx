@@ -1,3 +1,4 @@
+import { A } from "@solidjs/router";
 import banner from "./assets/home-banner.jpeg";
 
 function Home() {
@@ -50,6 +51,10 @@ function Home() {
             parents. Imagine what we can do for Lynbrook with 100% parent
             participation!
           </p>
+          <div class="flex flex-row justify-center gap-4 mt-4">
+            <A class="btn btn-accent text-lg font-normal" href="/updates">Newsletters</A>
+            <A class="btn btn-accent text-lg font-normal" href="/updates">Annual Reports</A>
+          </div>
         </div>
         <div class="flex flex-col gap-2 w-full items-center px-4 sm:px-8">
           <progress
