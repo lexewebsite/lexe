@@ -73,8 +73,8 @@ function App() {
             </ul>
           </div>
           <div class="flex-1">
-            <a class="btn btn-ghost text-2xl font-extrabold" href="/">
-              LEXE
+            <a class="btn btn-primary h-14 p-1 ml-2 md:h-18 md:p-2 md:ml-4" href="/">
+              <img src="/logo.jpg" class="h-full" alt="LEXE logo"></img>
             </a>
           </div>
         </div>
