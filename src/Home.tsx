@@ -52,8 +52,12 @@ function Home() {
             participation!
           </p>
           <div class="flex flex-row justify-center gap-4 mt-4">
-            <A class="btn btn-accent text-lg font-normal" href="/updates">Newsletters</A>
-            <A class="btn btn-accent text-lg font-normal" href="/updates">Annual Reports</A>
+            <A class="btn btn-accent text-lg font-normal" href="/updates">
+              Newsletters
+            </A>
+            <A class="btn btn-accent text-lg font-normal" href="/updates">
+              Annual Reports
+            </A>
           </div>
         </div>
         <div class="flex flex-col gap-2 w-full items-center px-4 sm:px-8">

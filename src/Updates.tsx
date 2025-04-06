@@ -9,18 +9,33 @@ function Updates() {
           Newsletters
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-4 mt-1">
-          <a class="btn btn-accent text-lg font-normal" target="_blank" href="https://app.flashissue.com/newsletters/44bf3813e1bc67cb1bbee671c9d7f517b05e9c51">2020</a>
+          <a
+            class="btn btn-accent text-lg font-normal"
+            target="_blank"
+            href="https://app.flashissue.com/newsletters/44bf3813e1bc67cb1bbee671c9d7f517b05e9c51"
+          >
+            2020
+          </a>
         </div>
 
-        <h2 class="text-2xl lg:text-3xl mt-8 font-extrabold" id="annual-reports">
+        <h2
+          class="text-2xl lg:text-3xl mt-8 font-extrabold"
+          id="annual-reports"
+        >
           Annual Reports
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-4 mt-1">
-          <a class="btn btn-accent text-lg font-normal" target="_blank" href={report2020}>2020</a>
+          <a
+            class="btn btn-accent text-lg font-normal"
+            target="_blank"
+            href={report2020}
+          >
+            2020
+          </a>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Updates;

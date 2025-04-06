@@ -1,6 +1,8 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "daisyui" {
-  themes: fantasy --default, dark --prefersdark;
+  themes:
+    fantasy --default,
+    dark --prefersdark;
 }
 
 html,
@@ -20,6 +22,6 @@ body {
 
 @media (prefers-color-scheme: dark) {
   canvas {
-      filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg);
   }
 }

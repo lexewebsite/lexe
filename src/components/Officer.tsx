@@ -1,4 +1,4 @@
-export default function Officer({name, description}) {
+export default function Officer({ name, description }) {
   return (
     <>
       <div class="flex flex-col gap-1 w-full text-center sm:text-left">

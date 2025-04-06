@@ -19,11 +19,13 @@ export default function FocusArea({
             return captions[index] != null ? (
               <div class="card bg-base-100 shadow-xl">
                 <figure>
-                  <img src={imgSrc} alt={altTexts[index]}/>
+                  <img src={imgSrc} alt={altTexts[index]} />
                 </figure>
                 {captions[index] != null && (
                   <div class="card-body py-5">
-                    <h2 class="text-xl font-light text-center">{captions[index]}</h2>
+                    <h2 class="text-xl font-light text-center">
+                      {captions[index]}
+                    </h2>
                   </div>
                 )}
               </div>
@@ -33,12 +35,18 @@ export default function FocusArea({
           })}
         </div>
         <div class="w-full flex flex-col gap-4 mb-4">
-          <h1 class="text-2xl bg-secondary text-secondary-content font-extrabold p-2 rounded-2xl"> {name} </h1>
+          <h1 class="text-2xl bg-secondary text-secondary-content font-extrabold p-2 rounded-2xl">
+            {" "}
+            {name}{" "}
+          </h1>
           <div class="w-full text-left flex flex-col gap-2">
             {description.map((paragraph: string) => {
               return (
                 <>
-                  <p class="w-full hyphens-auto text-justify indent-8 md:hyphens-none md:text-left md:text-pretty"> {paragraph} </p>
+                  <p class="w-full hyphens-auto text-justify indent-8 md:hyphens-none md:text-left md:text-pretty">
+                    {" "}
+                    {paragraph}{" "}
+                  </p>
                 </>
               );
             })}

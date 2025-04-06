@@ -9,23 +9,43 @@ function Donate() {
   return (
     <div class="container px-4 py-12 flex flex-col items-center gap-2 text-base-content">
       <h1 class="text-5xl font-extrabold text-center mb-4">Donate</h1>
-      <p class="text-left text-pretty text-md lg:text-xl max-w-4xl"> {paragraph} </p>
+      <p class="text-left text-pretty text-md lg:text-xl max-w-4xl">
+        {" "}
+        {paragraph}{" "}
+      </p>
 
       {/** This section of the website should go horizontally down while be text-lefted.*/}
       <div class="container flex flex-col gap-2 max-w-4xl">
-        <p class="text-2xl lg:text-3xl mt-8 font-extrabold">
-          PayPal:
-        </p>
+        <p class="text-2xl lg:text-3xl mt-8 font-extrabold">PayPal:</p>
         <div class="w-48 self-center">
-          <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="YNZF7FSFNSS8S" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" class="border-none w-full" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" class="border-none" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          <form
+            action="https://www.paypal.com/donate"
+            method="post"
+            target="_top"
+          >
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="YNZF7FSFNSS8S"
+            />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+              class="border-none w-full"
+              name="submit"
+              title="PayPal - The safer, easier way to pay online!"
+              alt="Donate with PayPal button"
+            />
+            <img
+              alt=""
+              class="border-none"
+              src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
           </form>
         </div>
-        <p class="text-2xl lg:text-3xl mt-8 font-extrabold">
-          By Mail:
-        </p>
+        <p class="text-2xl lg:text-3xl mt-8 font-extrabold">By Mail:</p>
         <p class="text-md lg:text-xl max-w-4xl">
           Download the{" "}
           <a href={PDF} class="text-primary" target="_blank">
