@@ -4,6 +4,7 @@ const annual_reports = {
   "2020-2021": "https://drive.google.com/file/d/10SsxtgWu47dIMjqR3tuwMlQxvnp_bKTN/view?usp=drive_link",
   "2021-2022": "https://drive.google.com/file/d/187_oU6inPWWfMalCjRNDz48jjpz9s66l/view?usp=drive_link",
   "2022-2023": "https://drive.google.com/file/d/1Cb6WhIVtPQKgYDONz8eKaJ9VVRH1_Cii/view?usp=drive_link",
+  "2023-2024": "https://drive.google.com/file/d/1q8YjsPf7LflupRDtOYBkFtYXw6pbOicO/view?usp=drive_link",
 };
 
 const newsletters = {
