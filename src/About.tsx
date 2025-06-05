@@ -178,7 +178,7 @@ function About() {
           <h3 class="text-4xl font-extrabold text-center">Meet The Team</h3>
           <div class="flex flex-col gap-4 sm:flex-row w-full justify-around mb-8">
             <div class="flex flex-col gap-4">
-              <Officer name="Rajesh Aravindakshan" description="President" />
+              <Officer name="Jayant Kolhe" description="President" email="president@lynbrookexcellence.org" />
               <Officer
                 name="Parthasarathy Ranganathan"
                 description="Secretary"
@@ -188,7 +188,7 @@ function About() {
               <Officer name="David Erwin" description="Permanent Invitee" />
             </div>
             <div class="flex flex-col gap-4">
-              <Officer name="Prashant Shah" description="Treasurer" />
+              <Officer name="Prashant Shah" description="Treasurer" email="treasurer@lynbrookexcellence.org" />
               <Officer name="Ravi Ram" description="Co-Treasurer" />
               <Officer name="Mimi Wong" description="VP Outreach" />
               <Officer name="Maria Jacksonn" description="LHS Principal" />
